@@ -59,18 +59,18 @@ multiagent_prodigy/
 -ollama pull tinyllama
 
 🧪 Demo File: demo/translation_demo.py
-
+```bash
 -The demo file runs all LLM clients sequentially for testing translations.
 
 async def demo_gemini():       # Simulated Gemini translation
 async def demo_huggingface():  # Offline HuggingFace translation
 async def demo_ollama():       # Real Ollama translation
-
-
+```
+```bash
 Run the demo:
 
 -PYTHONPATH=. python demo/translation_demo.py
-
+```
 
 # Expected output:
 
@@ -80,6 +80,7 @@ Run the demo:
 ✅ All translation agents ran successfully!
 
 # 🧠 LLM Clients Overview
+```bash
 llm/clients.py
 
 -GeminiClient – Simulated, returns placeholder translations; API key optional.
@@ -89,7 +90,7 @@ llm/clients.py
 -llm/huggingface_client.py
 
 -Offline LLM using HuggingFace transformers library.
-
+```
 Example usage:
 
 -from transformers import pipeline
