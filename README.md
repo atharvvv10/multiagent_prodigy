@@ -89,7 +89,7 @@ Hugging Face models can be run locally or via inference API.
 Custom LLMs can be added by updating the config.py with their identifiers.
 ```
 
-🛠️ License
+# 🛠️ License
 ```bash
 This project is licensed under the MIT License.
 ```
