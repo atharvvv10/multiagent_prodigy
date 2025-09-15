@@ -1,7 +1,7 @@
 # 📦 MultiProdigy AI Agents Framework - Phase 2
 ```bash
-MultiProdigy is a **modular, schema-driven, multi-agent framework** built with **Pydantic**.  
-It enables **scalable and orchestrated communication** between autonomous agents with a **shared message bus**, runtime engine, and support infrastructure.
+MultiProdigy is a modular, schema-driven, multi-agent framework built with Pydantic.  
+It enables scalable and orchestrated communication between autonomous agents with a shared message bus, runtime engine, and support infrastructure.
 ```
 ---
 
@@ -19,7 +19,7 @@ It enables **scalable and orchestrated communication** between autonomous agents
 
 ## 🧰 Phase 2 Enhancements
 ```bash
-- Support for multiple LLM models: **Gemini Pro**, **Hugging Face**, **Custom LLMs**  
+- Support for multiple LLM models: Gemini Pro, Hugging Face, Custom LLMs.  
 - Guidelines for integrating new/custom LLM agents  
 - Modular folder structure for future scalability  
 ```
@@ -27,10 +27,10 @@ It enables **scalable and orchestrated communication** between autonomous agents
 
 ## 📄 Documentation
 ```bash
-- **Getting Started**  
-- **Architecture Overview**  
-- **Module Reference**  
-- **Sample Demo**  
+- Getting Started  
+- Architecture Overview  
+- Module Reference  
+- Sample Demo 
 ```
 ---
 
