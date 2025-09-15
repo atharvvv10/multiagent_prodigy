@@ -54,9 +54,9 @@ multiagent_prodigy/
 
 -Runs real Ollama models such as tinyllama, mistral, or llama3.
 
--Requires Ollama installed and models pulled via CLI:
+-Requires Ollama installed and models pulled via CLI.
 
--ollama pull tinyllama
+-Ollama pull tinyllama
 
 🧪 Demo File: demo/translation_demo.py
 ```bash
