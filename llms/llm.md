@@ -1,8 +1,8 @@
-🧠 MultiAgent Prodigy — LLM Translation Framework (Offline + Simulated)
+# 🧠 MultiAgent Prodigy — LLM Translation Framework (Offline + Simulated)
 
 MultiAgent Prodigy is a modular Python framework to run and test multiple LLM clients for translation tasks — like Gemini Pro, HuggingFace (Offline mode), and Ollama — all in one place. Designed to work in environments without API keys or internet (offline-friendly). Supports simulation, real LLM outputs using local models, and is built to scale with multiple agents.
 
-🚀 Features
+# 🚀 Features
 
 Plugin-based modular architecture for translation agents
 
@@ -18,7 +18,7 @@ Fully offline-friendly and simulation-ready
 
 Expandable for future agents
 
-📁 Folder Structure
+# 📁 Folder Structure
 multiagent_prodigy/
 ├── demo/
 │   └── translation_demo.py         # Demo runner for all translation agents
@@ -32,7 +32,7 @@ multiagent_prodigy/
 ├── requirements.txt                # Required Python libraries
 └── README.md                       # This file
 
-💡 How It Works
+# 💡 How It Works
 🔷 Gemini Pro (Simulated)
 
 Simulated LLM client with optional API key support.
@@ -71,14 +71,14 @@ Run the demo:
 PYTHONPATH=. python demo/translation_demo.py
 
 
-Expected output:
+# Expected output:
 
 🔷 Gemini Response: Simulated response from Gemini for: Hello World
 🟡 HuggingFace (Offline) Response: Bonjour le monde
 🟢 Ollama Response: Bonjour le monde (real LLM output)
 ✅ All translation agents ran successfully!
 
-🧠 LLM Clients Overview
+# 🧠 LLM Clients Overview
 llm/clients.py
 
 GeminiClient – Simulated, returns placeholder translations; API key optional.
@@ -96,7 +96,7 @@ from transformers import pipeline
 self.generator = pipeline("text-generation", model="gpt2")
 translation = self.generator("Hello World", max_length=50)
 
-▶️ Step-by-Step Setup
+# ▶️ Step-by-Step Setup
 
 Clone or set up the folder structure.
 
@@ -117,12 +117,13 @@ Run the demo:
 
 PYTHONPATH=. python demo/translation_demo.py
 
-✅ Offline vs Online Behavior
+# ✅ Offline vs Online Behavior
 Client	Offline?	Notes
 GeminiClient	✅ Yes	Simulated (API optional)
 HuggingFaceClient	✅ Yes	Fully offline using local models
 OllamaClient	✅ Yes	Runs real local models via CLI
-⚡ Key Advantages
+
+# ⚡ Key Advantages
 
 Test multiple LLMs locally without paying for APIs
 
@@ -134,7 +135,7 @@ Logging ensures reproducible testing and debugging
 
 Scalable: Can expand to include translation, summarization, or other tasks
 
-📌 Notes
+# 📌 Notes
 
 HuggingFace models require local download; no internet needed for inference.
 
