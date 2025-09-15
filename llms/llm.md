@@ -73,12 +73,12 @@ Run the demo:
 ```
 
 # Expected output:
-
+```bash
 🔷 Gemini Response: Simulated response from Gemini for: Hello World
 🟡 HuggingFace (Offline) Response: Bonjour le monde
 🟢 Ollama Response: Bonjour le monde (real LLM output)
 ✅ All translation agents ran successfully!
-
+```
 # 🧠 LLM Clients Overview
 ```bash
 llm/clients.py
@@ -91,13 +91,14 @@ llm/clients.py
 
 -Offline LLM using HuggingFace transformers library.
 ```
+```bash
 Example usage:
 
 -from transformers import pipeline
 
 self.generator = pipeline("text-generation", model="gpt2")
 translation = self.generator("Hello World", max_length=50)
-
+```
 # ▶️ Step-by-Step Setup
 ```bash
 Clone or set up the folder structure.
