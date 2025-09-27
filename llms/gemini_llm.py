@@ -1,5 +1,5 @@
 from .base import BaseLLM
-# import google-generativeai as ggi  # Uncomment if installed and available
+
 
 class GeminiLLM(BaseLLM):
     def __init__(self, api_key=None, model="gemini-pro", **kwargs):
